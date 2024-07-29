@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['knife', 'pistol', 'violence']
+
+roboflow:
+  workspace: new-workspace-ur4tj
+  project: violence-dangerous-object
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/new-workspace-ur4tj/violence-dangerous-object/dataset/4
